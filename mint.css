@@ -19,8 +19,12 @@ body{
 
 .signup-nav{
   float: right;
-  height: 50px;
-  vertical-align: bottom;
+  margin-top: 30px;
+}
+
+.signup-nav a{
+  text-decoration: none;
+  color: #393333;
 }
 
 .signup-container{
@@ -48,6 +52,7 @@ body{
   font-size: 12px;
   line-height: 1.5;
   text-align: left;
+  margin-top: 15px;
 }
 
 .form-agreement-message a{
@@ -68,6 +73,7 @@ body{
   border: none!important;
   width: 150px;
 }
+
 h3{
   display: block;
   font-size: 1.17em;
@@ -113,6 +119,7 @@ aside{
   width: 24%;
   padding-left: 30px;
   border-left: solid 1px #D3D3D3;
+  height: 400px;
 }
 
 aside li{
@@ -123,6 +130,11 @@ aside li{
   font-size: 14px;
   color: #a5a5a5;
   line-height: 20px;
+}
+
+aside a{
+  color: gray;
+  text-decoration: underline;
 }
 
 ul{
@@ -160,4 +172,11 @@ footer a:hover{
 
 .copyright{
   font-size: 10px;
+  margin-top:  15px;
+}
+
+.licenses a{
+  color: #45cae6!important;
+  cursor: pointer;
+  text-decoration: none;
 }
